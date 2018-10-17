@@ -11,12 +11,8 @@ a {
   color: white;
 }
 
-.section {
-  margin-top: 2%;
-  float: left;
-  background-color: white;
-  border: 1px solid black;
-  padding: 2%;
+span{
+  color: #62bb4a;
 }
 
 img {
@@ -33,6 +29,18 @@ h3 {
 
 h2 {
   font-size: 40px;
+}
+
+.section {
+  margin-top: 2%;
+  float: left;
+  background-color: white;
+  border: 1px solid black;
+  padding: 2%;
+}
+
+.section > div {
+  margin-top: 20px;
 }
 
 .container {
@@ -110,20 +118,10 @@ ul.voci li:last-child {
   width: 45%;
   margin-right: 2%;
 }
-.third.section {
-  height: 50px;
+.third_1.section, .third_2.section {
   width: 31%;
 }
 
 .first > div {
-  color: #62bb4a;
-  margin-top: 20px;
-}
-
-.second > div {
-  margin-top: 20px;
-}
-
-span {
   color: #62bb4a;
 }
