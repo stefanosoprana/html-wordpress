@@ -31,6 +31,10 @@ h3 {
   font-size: 15px;
 }
 
+h2 {
+  font-size: 40px;
+}
+
 .container {
   width: 100vw;
   height: 100vh;
@@ -103,7 +107,6 @@ ul.voci li:last-child {
 
 .second.section {
   background-color: white;
-  height: 50px;
   width: 45%;
   margin-right: 2%;
 }
@@ -115,4 +118,12 @@ ul.voci li:last-child {
 .first > div {
   color: #62bb4a;
   margin-top: 20px;
+}
+
+.second > div {
+  margin-top: 20px;
+}
+
+span {
+  color: #62bb4a;
 }
