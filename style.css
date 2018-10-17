@@ -11,10 +11,30 @@ a {
   color: white;
 }
 
+.section {
+  margin-top: 2%;
+  float: left;
+  background-color: white;
+  border: 1px solid black;
+  padding: 2%;
+}
+
+img {
+  width: 12px;
+}
+
+img + h3 {
+  display: inline-block;
+}
+
+h3 {
+  font-size: 15px;
+}
+
 .container {
   width: 100vw;
   height: 100vh;
-  padding: 20px;
+  padding: 2%;
   background-image: url('sfondo_legno.png');
 }
 
@@ -75,10 +95,24 @@ ul.voci li:last-child {
   border-right: solid 0px;
 }
 
-.first {
+.first.section {
   width: 20%;
-  height: 50px;
-  background-color: green;
-  margin: ;
+  background-color: white;
+  margin-right: 2%;
+}
 
+.second.section {
+  background-color: white;
+  height: 50px;
+  width: 45%;
+  margin-right: 2%;
+}
+.third.section {
+  height: 50px;
+  width: 31%;
+}
+
+.first > div {
+  color: #62bb4a;
+  margin-top: 20px;
 }
